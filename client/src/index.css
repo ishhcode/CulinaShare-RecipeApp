@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family:'Josefin Sans', 'Sans-serif'  ;
+
+}
+
+/*HOME*/
+
+/*header*/
+
+
+
+/*home*/
+.home{
+  display: flex;
+  flex-direction: column;
+}
+.featured-heading{
+  font-size: 50px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: #bfc6ca;
+  padding: 5px 0px;
+  margin-bottom: 10px;
+
+  
+}
+
+.single{
+  display: flex;
+}
+
+
+
+/*settings*/
+
+
+/*LOGIN*/
+.login{
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    rgba(255,255,255,0.5),
+    rgba(255,255,255,0.5)
+    ),url("https://i.pinimg.com/originals/4f/a1/55/4fa1559aa1a8bbc503cd44fe09bf527f.jpg");
+  background-size: cover;
+
+}
+.loginTitle{
+  font-size: 50px;
+}
+.loginForm{
+  margin-top: 20px;
+  display:flex;
+  flex-direction: column;
+}
+.loginForm > label{
+  margin: 10px 0;
+}
+.loginInput{
+  padding: 20px;
+  background-color: white;
+  border: none;
+}
+.loginButton{
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: lightcoral;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+}
+.loginButton:disabled{
+  cursor: not-allowed;
+  background-color: rgb(252,173,173);
+}
+.loginRegisterButton{
+  position: absolute;
+  top: 80px;
+  right: 20px;
+  background-color: teal;
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+}
+/*REGISTER */
+.register{
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    rgba(255,255,255,0.5),
+    rgba(255,255,255,0.5)
+    ),url("https://thumbs.dreamstime.com/b/bible-study-background-bible-study-white-wood-table-126080053.jpg");
+  background-size: cover;
+
+}
+.registerTitle{
+  font-size: 50px;
+}
+.registerForm{
+  margin-top: 20px;
+  display:flex;
+  flex-direction: column;
+}
+.registerForm > label{
+  margin: 10px 0;
+}
+.registerInput{
+  padding: 20px;
+  background-color: white;
+  border: none;
+}
+.registerButton{
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: lightcoral;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+}
+.registerLoginButton{
+  position: absolute;
+  top: 80px;
+  right: 20px;
+  background-color: teal;
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+}
+

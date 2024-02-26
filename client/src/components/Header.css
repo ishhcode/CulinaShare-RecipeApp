@@ -1,0 +1,64 @@
+/* .header{
+    margin-top: 60px;
+  
+  }
+  .headerTitles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Lora', 'Serif';
+    color: #444;
+  
+  }
+  .headerImg{
+    width: 100%;
+    height: 450px;
+    margin-top: 50px;
+    object-fit: cover;
+  }
+  .headerTitleSm{
+    position: absolute;
+    top: 18%;
+    font-size: 20px;
+  
+  }
+  .headerTitleLg{
+    position: absolute;
+    top: 20%;
+    font-size: 100px;
+  } */
+
+  /* Header.css */
+
+  .header {
+    margin-top: 60px; /* Adds space above the header */
+  }
+
+.headerTitles {
+    display: flex; /* Displays titles in a flex container */
+    flex-direction: column; /* Stacks titles vertically */
+    align-items: center; /* Centers titles horizontally */
+    font-family: 'Lora', 'Serif'; /* Applies font family */
+    color: #444; /* Sets text color */
+}
+.headerImg {
+  width: 100%; /* Makes the image take the full width of its container */
+  
+  height: min-content; /* Allows the image to adjust its height based on its content */
+  margin-top: 30px; /* Adds space above the image */
+  object-fit: cover; /* Ensures the image covers its container without stretching */ /* Position the image relatively */
+  top: -20%; /* Shift the image upward */
+}
+
+
+.headerTitleSm {
+    position: absolute; /* Positions the small title absolutely */
+    top: 10%; /* Adjusts the vertical position of the small title */
+    font-size: 20px; /* Sets the font size of the small title */
+}
+
+.headerTitleLg {
+    position: absolute; /* Positions the large title absolutely */
+    top: 13%; /* Adjusts the vertical position of the large title */
+    font-size: 100px; /* Sets the font size of the large title */
+}

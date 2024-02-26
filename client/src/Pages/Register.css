@@ -1,0 +1,79 @@
+.register {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://thumbs.dreamstime.com/b/bible-study-background-bible-study-white-wood-table-126080053.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+  }
+  
+  .registerTitle {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+  .profilePic{
+    display: inline-block;
+    width: 100px; /* Adjust width as needed */
+    height: 100px; /* Adjust height as needed */
+    border-radius: 50%; /* Make the border circular */
+    overflow: hidden; /* Hide overflow content */
+    border: 2px solid #ccc; /* Border style */
+    cursor: pointer;
+  }
+  
+  .registerForm {
+    width: 300px;
+    margin-top: 20px;
+  }
+  
+  .registerForm > label {
+    margin-bottom: 8px;
+    color: #555;
+  }
+  
+  .registerInput {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .registerButton {
+    cursor: pointer;
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .registerButton:hover {
+    background-color: #e05238;
+  }
+  
+  .registerLoginButton {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #4682b4;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .registerLoginButton:hover {
+    background-color: #3571a8;
+  }
+  

@@ -1,0 +1,114 @@
+/* ContributePage.css */
+/* ContributePage.css */
+
+/* Container styles */
+.contributePage {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #bfc6ca;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styles */
+.contributePageTitle {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Form styles */
+.contributePageForm {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Form group styles */
+.contributePageFormGroup {
+  margin-bottom: 20px;
+}
+
+/* Label styles */
+.contributePageFormGroup label {
+  font-size: 18px;
+  font-weight: bold;
+  color: #444;
+}
+
+/* Input styles */
+.contributePageFormGroup input[type="text"],
+.contributePageFormGroup textarea,
+.contributePageFormGroup input[type="file"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: border-color 0.3s ease;
+}
+
+/* Input focus styles */
+.contributePageFormGroup input[type="text"]:focus,
+.contributePageFormGroup textarea:focus,
+.contributePageFormGroup input[type="file"]:focus {
+  outline: none;
+  border-color: #6dabe4;
+}
+
+/* Submit button styles */
+.contributePageSubmit {
+  padding: 12px;
+  background-color: #6dabe4;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Submit button hover styles */
+.contributePageSubmit:hover {
+  background-color: #4e88b4;
+}
+
+.contributePageFormGroup {
+  margin-bottom: 20px;
+}
+
+.contributePageFormGroup label {
+  font-weight: bold;
+}
+
+.contributePageFormGroup input[type="text"],
+.contributePageFormGroup textarea,
+.contributePageFormGroup input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s ease;
+}
+
+.contributePageFormGroup input[type="text"]:focus,
+.contributePageFormGroup textarea:focus,
+.contributePageFormGroup input[type="file"]:focus {
+  outline: none;
+  border-color: #6dabe4;
+}
+
+.contributePageSubmit {
+  padding: 10px;
+  background-color: #6dabe4;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contributePageSubmit:hover {
+  background-color: #5f89aa;
+}
